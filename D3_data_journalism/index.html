@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>D3Times</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/d3Style.css">
 
@@ -18,50 +25,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12  col-md-9">
+      <div class="col-xs-12  col-md-12">
         <div id="scatter">
-          <!-- We append our chart here. -->
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12  col-md-9">
-        <div class="article">
-          <h2>Does Wealth Equal Health?</h2>
-
-          <p>
-              This information is based off data taken in 2014 from <a href = "https://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml">U. S. Census Data</a>.
-              The Affordable Care Act went into effect in 2014 (Source: <a href="https://en.wikipedia.org/wiki/Patient_Protection_and_Affordable_Care_Act">Wikipedia</a>).
-              Let's face it, lack of income can certainly affect the ability to lead a healthy life. This data shows the correlation between obesity, smoking and lack of
-              healthcare vs. poverty rates, age, and household income.
-          </p>
-
-          <p> 
-              In Renaissance times, carrying more weight on your body was a sign of wealth. Oh how things have changed. In today's age more people aim to be lean and toned but to achieve 
-              this desired look doesn't come easy or cheap. Fresh produce tends to be more expensive than processed foods and unless you are making a decent salary, having a gym membership may be less obtainable too.
-              According to the data, Arkansas, West Virgina and Missisppi have the highest percentage of obesity. Missisppi also has the highest poverty rate. Something to note although not so much surprising is that obesity tends to hit 
-              Americans at a highter rate between the ages of 36 and 40. Makes sense considering that is when our metabolisms start to slow down. Colorado, Washington D.C. and Hawaii have the lowest obesity rate and have higher median household
-              incomes. I think it's safe to say according the findings in this research financial stability can minimize your chances of obesity. This is ofcourse if you decide to choose to live a healthy lifestyle. There are plenty of wealthy 
-              people who have the means to eat a balanced diet and hit the gym regularly but choose not to. 
-
-          </p>
-  
-          <p>
-              According to this study you'll find more smokers reside in the south in such states as, West Virginia, Kentucky, Tennessee, Arkansas and Louisiana. Utah seems to have the least amount of Americans with a smoking habit. There is a slight 
-              upward trend when examining smokers vs poverty. Age doesn't really seem to play a significant role with smokers. There is however a downward trend in when it comes to household income. The higher the income the lower percentage of smokers.
-              With smoking regulations becoming more restricted these days, and it's widespread knowledge of how smoking causes cancer it's not likely to see this habbit increase in America. 
-          </p>
-  
-
-          <p>
-              Healthcare is something every American should have but to some it isn't so easily obtainable. This data shows that Texas residents are lacking the most healthcare followed by a few other states with high poverty rates such as Georgia, Louisiana 
-              and Missisppi. Age doesn't really play a huge role in this research other than to show that Americans seem to be lacking healthcare between the ages of 36 and 40. There is a mild downward trend when reviewing lack of healthcare vs. household income. 
-              The higher income households aren't lacking in healthcare so much as households with a lower income rate which shouldn't really be a surprise to anyone.
-          </p>
-
-          <p> In conclusion to this article the data findings reveal that higher income does lead to a healthier living situation. Having access to healthier food options, better education and medical coverage are crucial to one's overall health. They say money can't
-              buy happiness but it can buy healthcare and ultimately healthy living tends to lead you to happiness, right? 
-          </p>
+          <!-- append our chart here. -->
         </div>
       </div>
     </div>
@@ -69,14 +35,10 @@
 
   <!-- Footer-->
   <div id="footer">
-    <p>The Coding Boot Camp&copy;2020</p>
+    <p>The Coding Boot Camp&copy;2016</p>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
-
-</html>
